@@ -1,0 +1,5 @@
+# Third-party skills setup.sh installs into .claude/skills/. Nothing here is copied into this repository.
+# name	repo	ref	path in repo	licence
+hyperframes	https://github.com/heygen-com/hyperframes.git	v0.9.16	skills/hyperframes	Apache-2.0
+hyperframes-cli	https://github.com/heygen-com/hyperframes.git	v0.9.16	skills/hyperframes-cli	Apache-2.0
+earshot	https://github.com/Leonxlnx/earshot.git	591fa3e028032e6dce56620a20e932e35667e8d8	skills/earshot	MIT

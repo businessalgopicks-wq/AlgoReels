@@ -1,0 +1,17 @@
+{
+  "name": "mechanism",
+  "voice": {
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "name": "the mechanism narrator",
+    "model": "eleven_v4",
+    "library_url": "https://elevenlabs.io/voices/TX3LPaxmHKxFdv7VOQHJ"
+  },
+  "duration": {
+    "min": 25,
+    "max": 45
+  },
+  "checks": [
+    "mechanism",
+    "motion_continuity"
+  ]
+}

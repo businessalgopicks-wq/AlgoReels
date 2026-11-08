@@ -1,0 +1,28 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Your reels stay yours
+/reels/
+
+# Rebuilt by ./setup.sh
+.venv/
+.venvs/
+vendor/
+.cache/
+node_modules/
+
+# Third-party skills, installed by ./setup.sh from tools/skills.lock.tsv
+/.claude/skills/*
+!/.claude/skills/reel/
+!/.claude/skills/ig-human/
+!/.claude/skills/ig-caption/
+!/.claude/skills/openverse-media/
+/.claude/settings.local.json
+
+# Leftovers
+.DS_Store
+__pycache__/
+*.py[cod]
+*.log

@@ -1,0 +1,6 @@
+{
+  "permissions": {
+    "allow": ["Bash(./reel:*)", "Bash(ffmpeg:*)", "Bash(ffprobe:*)", "Bash(python3 .claude/skills/:*)", "Bash(.venvs/earshot/bin/earshot:*)"],
+    "deny": ["Read(./.env)"]
+  }
+}

@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# The one command for this repo. Run ./reel with no arguments for the list.
+set -euo pipefail
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+for candidate in /opt/homebrew/opt/ffmpeg-full/bin /usr/local/opt/ffmpeg-full/bin; do
+  if [ -x "$candidate/ffmpeg" ]; then PATH="$candidate:$PATH"; break; fi
+done
+export PATH
+PY="$ROOT/.venv/bin/python"
+[ -x "$PY" ] || PY="$(command -v python3)"
+exec "$PY" "$ROOT/tools/reel.py" "$@"

@@ -1,0 +1,9 @@
+{
+  "hyperframes": "0.9.16",
+  "fonts": {
+    "Inter-600.woff2": "https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-600-normal.woff2",
+    "InstrumentSerif-Italic.woff2": "https://cdn.jsdelivr.net/fontsource/fonts/instrument-serif@latest/latin-400-italic.woff2",
+    "Anton-400.woff2": "https://cdn.jsdelivr.net/fontsource/fonts/anton@latest/latin-400-normal.woff2",
+    "JetBrainsMono-500.woff2": "https://cdn.jsdelivr.net/fontsource/fonts/jetbrains-mono@latest/latin-500-normal.woff2"
+  }
+}
